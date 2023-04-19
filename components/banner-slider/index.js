@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import banner from "../../public/assets/banner-1.jpeg";
 import banner_1 from "../../public/assets/banner-5.jpeg";
 import banner_2 from "../../public/assets/banner-4.jpeg";
+import { IoIosArrowDown } from "react-icons/io";
 
 const BannerSlider = () => {
   const DATA = [
@@ -13,10 +14,11 @@ const BannerSlider = () => {
   var settings = {
     dots: false,
     infinite: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    fade: true,
   };
   return (
     <div>
@@ -24,10 +26,10 @@ const BannerSlider = () => {
         {DATA.map((slide, index) => {
           return (
             <div className="banner-slide" key={index}>
-              {/* <div className="banner-title">
-              {slide.text}
-              </div> */}
               <img src={slide.image} />
+              <div className="arrow">
+                <IoIosArrowDown />
+              </div>
             </div>
           );
         })}
