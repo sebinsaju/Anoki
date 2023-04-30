@@ -383,7 +383,7 @@ hr {
   object-fit: cover;
     width: 100%;
     object-position: center;
-    height: 100%;
+    /* height: 100%; */
 }
 small,
 .small {
@@ -10944,13 +10944,14 @@ div#small-dialog iframe {
 }
   .mobile-menu{
     position: fixed;
-    top: 85px;
+    top: 76px;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: #fff;
     z-index: 999;
     padding:30px 20px;
+    color: #505050;
   }
   .mobile-menu ul{
     font-size: 30px;
@@ -13219,6 +13220,15 @@ header{
   color: rgba(0, 0, 0, 0.5);
   transition: all ease 0.5s;
 }
+.content.padding{
+  padding-top: 76px;
+}
+.close_btn,.close_btn:active,.close_btn:focus{
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 18px;
+}
 .transparent{
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -13252,7 +13262,7 @@ header{
   margin: auto;
   text-align: center;
   font-size: 40px;
-  animation: arrowanimation infinite linear;
+  animation: arrowanimation 1.5s infinite linear;
 }
 .banner-slide .banner-overlay{
     position: absolute;

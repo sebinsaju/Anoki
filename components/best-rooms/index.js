@@ -27,7 +27,7 @@ const BestRooms = () => {
                     <span className="fa fa-users"></span>Single Cottage: <span>1 Nos</span>
                   </li>
                   <li>
-                    <span className="fa fa-bed"></span> Double Cottage: <sapn>4 Nos</sapn>
+                    <span className="fa fa-bed"></span> Double Cottage: <span>4 Nos</span>
                   </li>
                   <li>
                     <span className="fa fa-bed"></span> AC

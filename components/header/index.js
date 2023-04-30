@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import {AiOutlineClose} from "react-icons/ai"
+
+
 const Header = () => {
   const [toggle, setToggle] = useState(false);
   const [isTransparent, setIsTransparent] = useState(false);
@@ -34,7 +37,7 @@ const Header = () => {
             </a>
           </Link>
 
-          <button
+          {!toggle && <button
             className="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -45,7 +48,10 @@ const Header = () => {
             onClick={toggler}
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
+          </button>}
+          {toggle &&<button onClick={toggler} className="close_btn">
+            <AiOutlineClose />
+            </button>}
           {toggle && (
             <div className="mobile-menu">
               <ul className="navbar-nav ml-auto">
