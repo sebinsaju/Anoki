@@ -377,6 +377,7 @@ hr {
 .banner-slide{
   height: 100vh;
   @media  screen and (max-width:991px) {
+    height:40%;
     height:40vh;
   }
 }.banner-slide img{
