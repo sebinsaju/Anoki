@@ -66,7 +66,7 @@ const HomeFacilities = () => {
               <Slider {...settings}>
                 {DATA.map((slide, index) => {
                   return (
-                    <div className="banner-slide" key={index}>
+                    <div className="facility-slide" key={index}>
                       <img src={slide.image} />
                     </div>
                   );
