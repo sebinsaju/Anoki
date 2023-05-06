@@ -1,5 +1,9 @@
 import React from "react";
 import { bookingLink } from "../../constants";
+import background from "../../public/assets/resort-background.jpeg";
+import long from "../../public/assets/resort-long-view.jpeg";
+import resort from "../../public/assets/resort.jpeg";
+import kitchen from "../../public/assets/kitchen.jpeg";
 
 const BestRooms = () => {
   return (
@@ -24,10 +28,12 @@ const BestRooms = () => {
                 </h3>
                 <ul className="mb-3">
                   <li>
-                    <span className="fa fa-users"></span>Single Cottage: <span>1 Nos</span>
+                    <span className="fa fa-users"></span>Single Cottage:{" "}
+                    <span>1 Nos</span>
                   </li>
                   <li>
-                    <span className="fa fa-bed"></span> Double Cottage: <span>4 Nos</span>
+                    <span className="fa fa-bed"></span> Double Cottage:{" "}
+                    <span>4 Nos</span>
                   </li>
                   <li>
                     <span className="fa fa-bed"></span> AC
@@ -53,11 +59,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img
-                      className="img-fluid"
-                      src="../assets/resort-long-view.jpeg"
-                      alt=""
-                    />
+                    <img className="img-fluid" src={long.src} alt="" />
                     <figcaption>
                       <div>
                         <h4>Private</h4>
@@ -70,7 +72,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="../assets/resort-background.jpeg" alt="" />
+                    <img className="img-fluid" src={background.src} alt="" />
                     <figcaption>
                       <div>
                         <h4>Modern</h4>
@@ -83,7 +85,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6 mt-4">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="../assets/resort.jpeg" alt="" />
+                    <img className="img-fluid" src={resort.src} alt="" />
                     <figcaption>
                       <div>
                         <h4>Scenic</h4>
@@ -96,7 +98,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6 mt-4">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="../assets/kitchen.jpeg" alt="" />
+                    <img className="img-fluid" src={kitchen.src} alt="" />
                     <figcaption>
                       <div>
                         <h4>Tranquil</h4>

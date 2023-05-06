@@ -1,15 +1,21 @@
 import React from "react";
 import Slider from "react-slick";
-
+import banner1 from "../../public/assets/banner-1.jpeg"
+import banner2 from "../../public/assets/banner-2.jpeg"
+import banner3 from "../../public/assets/banner-3.jpeg"
+import banner4 from "../../public/assets/banner-4.jpeg"
+import banner5 from "../../public/assets/banner-5.jpeg"
+import banner6 from "../../public/assets/banner-6.jpeg"
+import banner7 from "../../public/assets/banner-7.jpeg"
 const HomeFacilities = () => {
   const DATA = [
-    { image: "../assets/banner-1.jpeg" },
-    { image: "../assets/banner-2.jpeg" },
-    { image: "../assets/banner-3.jpeg" },
-    { image: "../assets/banner-4.jpeg" },
-    { image: "../assets/banner-5.jpeg" },
-    { image: "../assets/banner-6.jpeg" },
-    { image: "../assets/banner-7.jpeg" },
+    { image: banner1.src },
+    { image: banner2.src },
+    { image: banner3.src },
+    { image: banner4.src },
+    { image: banner5.src },
+    { image: banner6.src },
+    { image: banner7.src },
   ];
 
   const FEATURES = [
