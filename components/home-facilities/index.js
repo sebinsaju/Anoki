@@ -3,13 +3,13 @@ import Slider from "react-slick";
 
 const HomeFacilities = () => {
   const DATA = [
-    { image: "/assets/banner-1.jpeg" },
-    { image: "/assets/banner-2.jpeg" },
-    { image: "/assets/banner-3.jpeg" },
-    { image: "/assets/banner-4.jpeg" },
-    { image: "/assets/banner-5.jpeg" },
-    { image: "/assets/banner-6.jpeg" },
-    { image: "/assets/banner-7.jpeg" },
+    { image: "../assets/banner-1.jpeg" },
+    { image: "../assets/banner-2.jpeg" },
+    { image: "../assets/banner-3.jpeg" },
+    { image: "../assets/banner-4.jpeg" },
+    { image: "../assets/banner-5.jpeg" },
+    { image: "../assets/banner-6.jpeg" },
+    { image: "../assets/banner-7.jpeg" },
   ];
 
   const FEATURES = [

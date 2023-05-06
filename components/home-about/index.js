@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/dist/client/link";
+import banner from "../../public/assets/banner-1.jpeg"
+import banner2 from "../../public/assets/banner-3.jpeg"
 const HomeAbout = () => {
   return (
     <section className="w3l-about py-5">
@@ -29,12 +31,12 @@ const HomeAbout = () => {
           </div>
           <div className="col-lg-6 about-right position-relative mt-lg-0 mt-5">
             <img
-              src="/assets/banner-1.jpeg"
+              src={banner.src}
               alt=""
               className="img-fluid img-border mt-4"
             />
             <img
-              src="/assets/banner-3.jpeg"
+              src={banner2.src}
               alt=""
               className="img-fluid position-absolute img-position"
             />

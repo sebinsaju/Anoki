@@ -55,7 +55,7 @@ const BestRooms = () => {
                   <figure className="effect-lily border-radius">
                     <img
                       className="img-fluid"
-                      src="/assets/resort-long-view.jpeg"
+                      src="../assets/resort-long-view.jpeg"
                       alt=""
                     />
                     <figcaption>
@@ -70,7 +70,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="/assets/resort-background.jpeg" alt="" />
+                    <img className="img-fluid" src="../assets/resort-background.jpeg" alt="" />
                     <figcaption>
                       <div>
                         <h4>Modern</h4>
@@ -83,7 +83,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6 mt-4">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="/assets/resort.jpeg" alt="" />
+                    <img className="img-fluid" src="../assets/resort.jpeg" alt="" />
                     <figcaption>
                       <div>
                         <h4>Scenic</h4>
@@ -96,7 +96,7 @@ const BestRooms = () => {
               <div className="maghny-gd-1 col-6 mt-4">
                 <div className="maghny-grid">
                   <figure className="effect-lily border-radius">
-                    <img className="img-fluid" src="/assets/kitchen.jpeg" alt="" />
+                    <img className="img-fluid" src="../assets/kitchen.jpeg" alt="" />
                     <figcaption>
                       <div>
                         <h4>Tranquil</h4>

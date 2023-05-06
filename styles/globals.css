@@ -10964,7 +10964,7 @@ div#small-dialog iframe {
   }
 /* quotation */
 .quotation {
-  background: url(/assets/cover.jpeg) no-repeat top;
+  background: url("../public/assets/cover.jpeg") no-repeat top;
   background-position:right;
   background-size: cover;
   -webkit-background-size: cover;
