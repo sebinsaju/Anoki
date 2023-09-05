@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
-import banner from "../../public/assets/banner-1.jpeg";
-import banner_1 from "../../public/assets/banner-5.jpeg";
-import banner_2 from "../../public/assets/banner-4.jpeg";
+import banner from "/assets/banner-1.jpeg";
+import banner_1 from "/assets/banner-5.jpeg";
+import banner_2 from "/assets/banner-4.jpeg";
 import { IoIosArrowDown } from "react-icons/io";
 
 const BannerSlider = () => {
