@@ -23,7 +23,7 @@ const HomeAbout = () => {
               moment you arrive, our friendly and attentive staff will ensure
               that your every need is taken care of.
             </p>
-            <Link href="/rooms">
+            <Link href="/">
               <a className="btn btn-style btn-primary mt-sm-5 mt-4">
                 Learn About Us
               </a>

@@ -4,7 +4,8 @@ import background from "../../public/assets/resort-background.jpeg";
 import long from "../../public/assets/resort-long-view.jpeg";
 import resort from "../../public/assets/resort.jpeg";
 import kitchen from "../../public/assets/kitchen.jpeg";
-import image from "../../public/assets/banner-5.jpeg"
+import image from "../../public/assets/banner-5.jpeg";
+import Link from "next/link";
 const BestRooms = () => {
   return (
     <div className="best-rooms py-5">
@@ -43,14 +44,15 @@ const BestRooms = () => {
                   Experience the natural beauty of Vagamon from the comfort and
                   privacy of our well-appointed cottages.
                 </p>
-                <a
-                  href={bookingLink}
-                  className="btn btn-style btn-primary mt-sm-4 mt-3"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Book Now
-                </a>
+                <Link href={bookingLink}>
+                  <a
+                    className="btn btn-style btn-primary mt-sm-4 mt-3"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Book Now
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
