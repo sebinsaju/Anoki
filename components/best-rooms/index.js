@@ -4,7 +4,7 @@ import background from "../../public/assets/resort-background.jpeg";
 import long from "../../public/assets/resort-long-view.jpeg";
 import resort from "../../public/assets/resort.jpeg";
 import kitchen from "../../public/assets/kitchen.jpeg";
-
+import image from "../../public/assets/banner-5.jpeg"
 const BestRooms = () => {
   return (
     <div className="best-rooms py-5">
@@ -14,7 +14,7 @@ const BestRooms = () => {
           <div className="maghny-gd-1 col-lg-6">
             <div className="maghny-grid">
               <figure className="effect-lily">
-                <img className="img-fluid" src="/assets/banner-5.jpeg" alt="image" />
+                <img className="img-fluid" src={image.src} alt="image" />
                 <figcaption className="w3set-hny">
                   <div>
                     <h4 className="top-text">Spacious</h4>
