@@ -14,7 +14,7 @@ const BestRooms = () => {
           <div className="maghny-gd-1 col-lg-6">
             <div className="maghny-grid">
               <figure className="effect-lily">
-                <img className="img-fluid" src="../../public/assets/banner-5.jpeg" alt="" />
+                <img className="img-fluid" src="/assets/banner-5.jpeg" alt="image" />
                 <figcaption className="w3set-hny">
                   <div>
                     <h4 className="top-text">Spacious</h4>
