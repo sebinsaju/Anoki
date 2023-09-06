@@ -10939,7 +10939,7 @@ div#small-dialog iframe {
     width: 100%;
   }
 .facility-slider{
-  height: 400px;
+  height: auto;
 }
 .facility-slider .slick-slider.slick-initialized{
   height: 100%;
